@@ -1,4 +1,10 @@
-# 通过自定义Python文件，对智联招聘的一次数据爬取和数据可视化呈现
+# 对智联招聘的招聘薪资的爬取和分析
+- 本次项目使用的是Python 3.7+MangoDB
+- 前置条件
+  - 安装re
+    - pip install re
+  - 安装matplotlib
+    - pip install matplotlib
 - calculate.py
   - 数据测算文件
     - avg_sal 方法
