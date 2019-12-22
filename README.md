@@ -29,7 +29,7 @@
       - 从PHP表中获取数据
 - paint.py
   - 通过matplotlib进行画图
-- index.pu
+- index.py
   - 数据爬取
     - Change_UA 方法
       - 切换UA
@@ -41,3 +41,8 @@
       - 爬取智联招聘，获取工资信息
     - insert 方法
       - 数据存储，存入数据库中
+# 爬取GitHub的Python相关项目并下载
+- get.py
+   - 爬取GitHub的Python项目
+     - download 方法
+        - 从数据库中获取GitHub下载链接，并下载后存放在本地
