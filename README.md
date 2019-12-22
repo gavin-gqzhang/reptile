@@ -1,1 +1,37 @@
-# -
+# 通过自定义Python文件，对智联招聘的一次数据爬取和数据可视化呈现
+- calculate.py
+  - 数据测算文件
+    - avg_sal 方法
+      - 求算薪资平均值
+    - min_price 方法
+      - 求取薪资最小值
+    - max_price 方法
+      - 求取薪资最大值
+- db.py
+  - 数据库连接文件
+    - insert_python 方法
+      - 将数据插入Python表中
+    - select_python 方法
+      - 从Python表中获取数据
+    - insert_java 方法
+      - 将数据插入Java表中
+    - select_java 方法
+      - 从Java表中获取数据
+    - insert_PHP 方法
+      - 将数据插入PHP表中
+    - select_PHP 方法
+      - 从PHP表中获取数据
+- paint.py
+  - 通过matplotlib进行画图
+- index.pu
+  - 数据爬取
+    - Change_UA 方法
+      - 切换UA
+    - get_proxy 方法
+      - 获取代理
+    - random_proxy 方法
+      - 随机切换代理
+    - get_price 方法
+      - 爬取智联招聘，获取工资信息
+    - insert 方法
+      - 数据存储，存入数据库中
